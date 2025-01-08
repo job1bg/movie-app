@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import MoviesGrid from "./components/MoviesGrid";
 import Watchlist from "./components/Watchlist";
-import { Movie } from "./api/Movie";
+import { Movie } from "./models/Movie";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {

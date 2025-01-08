@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../styles.css";
-import { Movie } from "../api/Movie";
+import { Movie } from "../models/Movie";
 import MovieCard from "./MovieCard";
 
 const MoviesGrid: React.FC<{

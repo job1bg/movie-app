@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles.css";
-import { Movie } from "../api/Movie";
+import { Movie } from "../models/Movie";
 import MovieCard from "./MovieCard";
 
 const Watchlist: React.FC<{
